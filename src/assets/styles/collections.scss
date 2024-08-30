@@ -10,6 +10,12 @@
     padding-inline: 2rem;
   }
 
+  & .hero-cta {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
   &-header {
     width: 100%;
     max-width: 1200px;

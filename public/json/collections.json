@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "name": "Exclusive Collection",
+    "img": "/_nuxt/src/assets/img/FLADENI-1537.jpg",
+    "description": "Crafted for those who value quality and individuality."
+  },
+  {
+    "id": "2",
+    "name": "Summer Collection",
+    "img": "/_nuxt/src/assets/img/FLADENI-1623.jpg",
+    "description": "Breezy and stylish, lightweight fabrics and vibrant colors perfect for warm weather."
+  },
+  {
+    "id": "3",
+    "name": "Spring Collection",
+    "img": "/_nuxt/src/assets/img/FLADENI-1680.jpg",
+    "description": "Fresh and floral, captures the essence of renewal with modern and chic designs."
+  },
+  {
+    "id": "4",
+    "name": "Fall Collection",
+    "img": "/_nuxt/src/assets/img/FLADENI-1821.jpg",
+    "description": "Embrace the changing seasons with the Fall."
+  },
+  {
+    "id": "5",
+    "name": "Winter Collection",
+    "img": "/_nuxt/src/assets/img/FLADENI-1704.jpg",
+    "description": "The Winter Collection combines warmth and elegance, perfect for staying fashionable during the colder months."
+  }
+]

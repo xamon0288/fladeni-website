@@ -17,9 +17,10 @@
                 :pagination="{ clickable: true }"
                 :navigation="false"
                 :autoplay="{
-                  delay: 2500,
+                  delay: 3500,
                   disableOnInteraction: true,
                 }"
+                @slideChange="updateImageUrl($event.realIndex)"
                 :breakpoints="{
                   768: {
                     slidesPerView: 1,
@@ -35,17 +36,16 @@
                   :key="index">
                   <div class="hero-card">
                     <div class="hero-img">
-                      <img
-                        src="@/assets/img/FLADENI-1704.jpg"
-                        alt="Fladeni Item" />
+                      <img :src="item.img" alt="Fladeni Item" />
                     </div>
                     <div class="hero-cta">
-                      <h3 class="section-title">{{ item }}</h3>
+                      <h3 class="section-title">{{ item.name }}</h3>
                       <h1 class="page-title">
-                        GORGEOUS FASHION TRENDS <br />
-                        FOR THE SUMMER
+                        {{ item.description }}
                       </h1>
-                      <a :href="`/collections/${item}`" class="btn btn-primary"
+                      <a
+                        :href="`/collections/${item.name}`"
+                        class="btn btn-primary"
                         >Shop Now</a
                       >
                     </div>
@@ -63,24 +63,21 @@
 </template>
 
 <script setup>
-import bgImg from "@/assets/img/FLADENI-1704.jpg";
 import { Swiper, SwiperSlide } from "swiper/vue";
 import "swiper/swiper-bundle.css";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 
 // Reactive States
-const imageUrl = ref(bgImg);
+const imageUrl = ref();
 const availableCollections = ref([]);
-const loading = ref(false);
+const loading = ref(true);
 
 // Fetch items based on category
 const fetchAll = async () => {
   try {
-    const data = await $fetch(`/json/all.json`);
+    const data = await $fetch(`/json/collections.json`);
 
-    const findCollections = [...new Set(data.map((item) => item.collections))];
-
-    availableCollections.value = findCollections;
+    availableCollections.value = data;
   } catch (err) {
     console.error("There was an error:", err);
   } finally {
@@ -88,8 +85,19 @@ const fetchAll = async () => {
   }
 };
 
+const updateImageUrl = (index) => {
+  imageUrl.value = availableCollections.value[index].img;
+};
+
 onMounted(async () => {
   await fetchAll();
+
+  const swiper = document.querySelector(".swiper-container")?.swiper;
+  if (swiper) {
+    swiper.on("slideChange", () => {
+      updateImageUrl(swiper.realIndex);
+    });
+  }
 });
 </script>
 
