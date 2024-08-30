@@ -1,0 +1,602 @@
+[
+    {
+        "imgSrc": "/_nuxt/src/assets/img/FLADENI-1537.jpg",
+        "name": "Elegant Evening Dress",
+        "category": "Dresses",
+        "price": 120.0,
+        "badgeType": "new",
+        "badgeValue": "New",
+        "productDescription": "A timeless classic, this product is made from premium materials. It's perfect for adding a touch of sophistication to any outfit.",
+        "quantity": 15,
+        "highlight": true,
+        "salePrice": null,
+        "sizes": {
+            "US 8": 14,
+            "US 10": 1,
+            "US 12": 0,
+            "US 14": 0
+        },
+        "id": "966c4aab-b74a-4f59-b2b8-582577c712b6",
+        "collections": "Exclusive Collection"
+    },
+    {
+        "imgSrc": "/_nuxt/src/assets/img/FLADENI-1623.jpg",
+        "name": "Summer Maxi Dress",
+        "category": "Dresses",
+        "price": 75.0,
+        "badgeType": "sale",
+        "badgeValue": "On Sale",
+        "productDescription": "This product is designed with the latest trends in mind, offering both style and comfort. Ideal for any occasion, it combines functionality with fashion.",
+        "quantity": 8,
+        "highlight": true,
+        "salePrice": 54.89,
+        "sizes": {
+            "US 8": 2,
+            "US 10": 0,
+            "US 12": 2,
+            "US 14": 4
+        },
+        "id": "19e9022f-adaf-4fb5-bab0-f91d3e81d7f8",
+        "collections": "Summer Collection"
+    },
+    {
+        "imgSrc": "/_nuxt/src/assets/img/FLADENI-1665.jpg",
+        "name": "Casual Midi Dress",
+        "category": "Dresses",
+        "price": 50.0,
+        "badgeType": "out",
+        "badgeValue": "Sold Out",
+        "productDescription": "This piece stands out for its unique design and comfort. Ideal for any season, it's a versatile item that can be dressed up or down.",
+        "quantity": 0,
+        "highlight": true,
+        "salePrice": null,
+        "sizes": {
+            "US 8": 0,
+            "US 10": 0,
+            "US 12": 0,
+            "US 14": 0
+        },
+        "id": "cc0690c4-0da1-41e2-be7b-c6222a17240b",
+        "collections": "Summer Collection"
+    },
+    {
+        "imgSrc": "/_nuxt/src/assets/img/FLADENI-1680.jpg",
+        "name": "Formal Office Dress",
+        "category": "Dresses",
+        "price": 95.0,
+        "badgeType": "new",
+        "badgeValue": "New",
+        "productDescription": "Our latest collection features this item, which is sure to turn heads. With attention to detail and a modern twist, it's a perfect addition to your closet.",
+        "quantity": 20,
+        "highlight": false,
+        "salePrice": null,
+        "sizes": {
+            "US 8": 4,
+            "US 10": 0,
+            "US 12": 8,
+            "US 14": 8
+        },
+        "id": "97107110-4451-4952-bc88-7b237cb02c73",
+        "collections": "Spring Collection"
+    },
+    {
+        "imgSrc": "/_nuxt/src/assets/img/FLADENI-1753.jpg",
+        "name": "Cocktail Party Dress",
+        "category": "Dresses",
+        "price": 110.0,
+        "badgeType": "sale",
+        "badgeValue": "On Sale",
+        "productDescription": "This piece stands out for its unique design and comfort. Ideal for any season, it's a versatile item that can be dressed up or down.",
+        "quantity": 5,
+        "highlight": false,
+        "salePrice": 66.9,
+        "sizes": {
+            "US 8": 3,
+            "US 10": 2,
+            "US 12": 0,
+            "US 14": 0
+        },
+        "id": "1a8af863-d92b-4c36-a5b3-0fc36c32f526",
+        "collections": "Spring Collection"
+    },
+    {
+        "imgSrc": "/_nuxt/src/assets/img/FLADENI-1821.jpg",
+        "name": "Bohemian Maxi Dress",
+        "category": "Dresses",
+        "price": 80.0,
+        "badgeType": "new",
+        "badgeValue": "New",
+        "productDescription": "Our latest collection features this item, which is sure to turn heads. With attention to detail and a modern twist, it's a perfect addition to your closet.",
+        "quantity": 12,
+        "highlight": false,
+        "salePrice": null,
+        "sizes": {
+            "US 8": 4,
+            "US 10": 3,
+            "US 12": 3,
+            "US 14": 2
+        },
+        "id": "02820ea9-e357-40fa-b38e-319a004c3487",
+        "collections": "Fall Collection"
+    },
+    {
+        "imgSrc": "/_nuxt/src/assets/img/FLADENI-1704.jpg",
+        "name": "Little Black Dress",
+        "category": "Dresses",
+        "price": 65.0,
+        "badgeType": "out",
+        "badgeValue": "Sold Out",
+        "productDescription": "A must-have in every wardrobe, this item offers both versatility and elegance. Crafted from high-quality materials, it's perfect for day-to-night wear.",
+        "quantity": 0,
+        "highlight": true,
+        "salePrice": null,
+        "sizes": {
+            "US 8": 0,
+            "US 10": 0,
+            "US 12": 0,
+            "US 14": 0
+        },
+        "id": "2c0b424c-3199-4fa5-af39-09bd632657e9",
+        "collections": "Winter Collection"
+    },
+    {
+        "imgSrc": "/_nuxt/src/assets/img/FLADENI-1693.jpg",
+        "name": "Beach Sundress",
+        "category": "Dresses",
+        "price": 45.0,
+        "badgeType": "new",
+        "badgeValue": "New",
+        "productDescription": "A must-have in every wardrobe, this item offers both versatility and elegance. Crafted from high-quality materials, it's perfect for day-to-night wear.",
+        "quantity": 18,
+        "highlight": false,
+        "salePrice": null,
+        "sizes": {
+            "US 8": 16,
+            "US 10": 1,
+            "US 12": 1,
+            "US 14": 0
+        },
+        "id": "06d0f925-23e7-4319-bd83-c1517a1cd70b",
+        "collections": "Winter Collection"
+    },
+    {
+        "imgSrc": "/_nuxt/src/assets/img/FLADENI-1572.jpg",
+        "name": "Floral Print Dress",
+        "category": "Dresses",
+        "price": 55.0,
+        "badgeType": "sale",
+        "badgeValue": "On Sale",
+        "productDescription": "Our latest collection features this item, which is sure to turn heads. With attention to detail and a modern twist, it's a perfect addition to your closet.",
+        "quantity": 9,
+        "highlight": true,
+        "salePrice": 41.49,
+        "sizes": {
+            "US 8": 4,
+            "US 10": 4,
+            "US 12": 0,
+            "US 14": 1
+        },
+        "id": "2dad4e39-dda3-4490-a307-923755457e32",
+        "collections": "Fall Collection"
+    },
+    {
+        "imgSrc": "/_nuxt/src/assets/img/FLADENI-1683.jpg",
+        "name": "Winter Sweater Dress",
+        "category": "Dresses",
+        "price": 85.0,
+        "badgeType": "new",
+        "badgeValue": "New",
+        "productDescription": "This piece stands out for its unique design and comfort. Ideal for any season, it's a versatile item that can be dressed up or down.",
+        "quantity": 10,
+        "highlight": true,
+        "salePrice": null,
+        "sizes": {
+            "US 8": 0,
+            "US 10": 9,
+            "US 12": 0,
+            "US 14": 1
+        },
+        "id": "cb0fb824-1268-447b-8139-ec4323889c98",
+        "collections": "Spring Collection"
+    },
+    {
+        "imgSrc": "/_nuxt/src/assets/img/FLADENI-1704.jpg",
+        "name": "A-line Midi Skirt",
+        "category": "Skirts",
+        "price": 45.0,
+        "badgeType": "new",
+        "badgeValue": "New",
+        "productDescription": "A timeless classic, this product is made from premium materials. It's perfect for adding a touch of sophistication to any outfit.",
+        "quantity": 14,
+        "highlight": true,
+        "salePrice": null,
+        "sizes": {
+            "US 8": 0,
+            "US 10": 3,
+            "US 12": 7,
+            "US 14": 4
+        },
+        "id": "18618629-1ab8-4b83-8320-40f3e70f34ac",
+        "collections": "Spring Collection"
+    },
+    {
+        "imgSrc": "/_nuxt/src/assets/img/FLADENI-1623.jpg",
+        "name": "Pleated Mini Skirt",
+        "category": "Skirts",
+        "price": 35.0,
+        "badgeType": "sale",
+        "badgeValue": "On Sale",
+        "productDescription": "Our latest collection features this item, which is sure to turn heads. With attention to detail and a modern twist, it's a perfect addition to your closet.",
+        "quantity": 6,
+        "highlight": true,
+        "salePrice": 26.38,
+        "sizes": {
+            "US 8": 3,
+            "US 10": 2,
+            "US 12": 1,
+            "US 14": 0
+        },
+        "id": "93c4d2a5-ad96-4eca-aae2-8d8c507fd965",
+        "collections": "Summer Collection"
+    },
+    {
+        "imgSrc": "/_nuxt/src/assets/img/FLADENI-1556.jpg",
+        "name": "Denim Skirt",
+        "category": "Skirts",
+        "price": 50.0,
+        "badgeType": "out",
+        "badgeValue": "Sold Out",
+        "productDescription": "A must-have in every wardrobe, this item offers both versatility and elegance. Crafted from high-quality materials, it's perfect for day-to-night wear.",
+        "quantity": 0,
+        "highlight": true,
+        "salePrice": null,
+        "sizes": {
+            "US 8": 0,
+            "US 10": 0,
+            "US 12": 0,
+            "US 14": 0
+        },
+        "id": "eff39ba7-972c-43b0-8ef7-d8761d4ec934",
+        "collections": "Summer Collection"
+    },
+    {
+        "imgSrc": "/_nuxt/src/assets/img/FLADENI-1786.jpg",
+        "name": "High-Waisted Skirt",
+        "category": "Skirts",
+        "price": 40.0,
+        "badgeType": "new",
+        "badgeValue": "New",
+        "productDescription": "A must-have in every wardrobe, this item offers both versatility and elegance. Crafted from high-quality materials, it's perfect for day-to-night wear.",
+        "quantity": 18,
+        "highlight": false,
+        "salePrice": null,
+        "sizes": {
+            "US 8": 3,
+            "US 10": 7,
+            "US 12": 3,
+            "US 14": 5
+        },
+        "id": "bf531b00-737d-42f2-b635-645bce86480d",
+        "collections": "Exclusive Collection"
+    },
+    {
+        "imgSrc": "/_nuxt/src/assets/img/FLADENI-1753.jpg",
+        "name": "Wrap Skirt",
+        "category": "Skirts",
+        "price": 38.0,
+        "badgeType": "sale",
+        "badgeValue": "On Sale",
+        "productDescription": "This product is designed with the latest trends in mind, offering both style and comfort. Ideal for any occasion, it combines functionality with fashion.",
+        "quantity": 7,
+        "highlight": false,
+        "salePrice": 21.75,
+        "sizes": {
+            "US 8": 7,
+            "US 10": 0,
+            "US 12": 0,
+            "US 14": 0
+        },
+        "id": "ab6c43b4-cadf-4807-ab79-a0dfe73cfca5",
+        "collections": "Spring Collection"
+    },
+    {
+        "imgSrc": "/_nuxt/src/assets/img/FLADENI-1537.jpg",
+        "name": "Leather Pencil Skirt",
+        "category": "Skirts",
+        "price": 85.0,
+        "badgeType": "new",
+        "badgeValue": "New",
+        "productDescription": "This piece stands out for its unique design and comfort. Ideal for any season, it's a versatile item that can be dressed up or down.",
+        "quantity": 10,
+        "highlight": true,
+        "salePrice": null,
+        "sizes": {
+            "US 8": 3,
+            "US 10": 1,
+            "US 12": 5,
+            "US 14": 1
+        },
+        "id": "e49c61a3-9422-4ad2-aceb-0f4db58fca05",
+        "collections": "Winter Collection"
+    },
+    {
+        "imgSrc": "/_nuxt/src/assets/img/FLADENI-1623.jpg",
+        "name": "Tulle Skirt",
+        "category": "Skirts",
+        "price": 55.0,
+        "badgeType": "out",
+        "badgeValue": "Sold Out",
+        "productDescription": "This product is designed with the latest trends in mind, offering both style and comfort. Ideal for any occasion, it combines functionality with fashion.",
+        "quantity": 0,
+        "highlight": true,
+        "salePrice": null,
+        "sizes": {
+            "US 8": 0,
+            "US 10": 0,
+            "US 12": 0,
+            "US 14": 0
+        },
+        "id": "ba8f72f0-ec3a-429f-869a-9b8165f61460",
+        "collections": "Fall Collection"
+    },
+    {
+        "imgSrc": "/_nuxt/src/assets/img/FLADENI-1665.jpg",
+        "name": "Maxi Skirt",
+        "category": "Skirts",
+        "price": 60.0,
+        "badgeType": "new",
+        "badgeValue": "New",
+        "productDescription": "This piece stands out for its unique design and comfort. Ideal for any season, it's a versatile item that can be dressed up or down.",
+        "quantity": 16,
+        "highlight": true,
+        "salePrice": null,
+        "sizes": {
+            "US 8": 1,
+            "US 10": 1,
+            "US 12": 3,
+            "US 14": 11
+        },
+        "id": "0c431bf2-5b73-4b6d-98b6-ba54f04b6c36",
+        "collections": "Exclusive Collection"
+    },
+    {
+        "imgSrc": "/_nuxt/src/assets/img/FLADENI-1707.jpg",
+        "name": "Ruffled Skirt",
+        "category": "Skirts",
+        "price": 42.0,
+        "badgeType": "sale",
+        "badgeValue": "On Sale",
+        "productDescription": "A must-have in every wardrobe, this item offers both versatility and elegance. Crafted from high-quality materials, it's perfect for day-to-night wear.",
+        "quantity": 12,
+        "highlight": true,
+        "salePrice": 31.6,
+        "sizes": {
+            "US 8": 4,
+            "US 10": 7,
+            "US 12": 1,
+            "US 14": 0
+        },
+        "id": "5acbfb13-012b-410c-9d18-345745477fb5",
+        "collections": "Exclusive Collection"
+    },
+    {
+        "imgSrc": "/_nuxt/src/assets/img/FLADENI-1821.jpg",
+        "name": "Plaid Skirt",
+        "category": "Skirts",
+        "price": 48.0,
+        "badgeType": "new",
+        "badgeValue": "New",
+        "productDescription": "This product is designed with the latest trends in mind, offering both style and comfort. Ideal for any occasion, it combines functionality with fashion.",
+        "quantity": 11,
+        "highlight": true,
+        "salePrice": null,
+        "sizes": {
+            "US 8": 5,
+            "US 10": 4,
+            "US 12": 2,
+            "US 14": 0
+        },
+        "id": "bde8bcbf-9ae4-4781-b64a-e2a2615ce0de",
+        "collections": "Spring Collection"
+    },
+    {
+        "imgSrc": "/_nuxt/src/assets/img/FLADENI-1628.jpg",
+        "name": "Gold Necklace",
+        "category": "Jewelry",
+        "price": 150.0,
+        "badgeType": "new",
+        "badgeValue": "New",
+        "productDescription": "A timeless classic, this product is made from premium materials. It's perfect for adding a touch of sophistication to any outfit.",
+        "quantity": 5,
+        "highlight": false,
+        "salePrice": null,
+        "sizes": {
+            "US 8": 0,
+            "US 10": 3,
+            "US 12": 2,
+            "US 14": 0
+        },
+        "id": "214037a2-7008-43f7-a680-648fb437ec4a",
+        "collections": "Summer Collection"
+    },
+    {
+        "imgSrc": "/_nuxt/src/assets/img/FLADENI-1683.jpg",
+        "name": "Silver Bracelet",
+        "category": "Jewelry",
+        "price": 65.0,
+        "badgeType": "sale",
+        "badgeValue": "On Sale",
+        "productDescription": "This product is designed with the latest trends in mind, offering both style and comfort. Ideal for any occasion, it combines functionality with fashion.",
+        "quantity": 9,
+        "highlight": true,
+        "salePrice": 38.95,
+        "sizes": {
+            "US 8": 0,
+            "US 10": 3,
+            "US 12": 6,
+            "US 14": 0
+        },
+        "id": "167ccab2-d89b-489e-ac6f-fe77ccb6af84",
+        "collections": "Winter Collection"
+    },
+    {
+        "imgSrc": "/_nuxt/src/assets/img/FLADENI-1637.jpg",
+        "name": "Diamond Earrings",
+        "category": "Jewelry",
+        "price": 350.0,
+        "badgeType": "out",
+        "badgeValue": "Sold Out",
+        "productDescription": "Our latest collection features this item, which is sure to turn heads. With attention to detail and a modern twist, it's a perfect addition to your closet.",
+        "quantity": 0,
+        "highlight": true,
+        "salePrice": null,
+        "sizes": {
+            "US 8": 0,
+            "US 10": 0,
+            "US 12": 0,
+            "US 14": 0
+        },
+        "id": "596142d3-6c5c-4e7a-bdf0-9ebd06829d15",
+        "collections": "Exclusive Collection"
+    },
+    {
+        "imgSrc": "/_nuxt/src/assets/img/FLADENI-1704.jpg",
+        "name": "Pearl Necklace",
+        "category": "Jewelry",
+        "price": 200.0,
+        "badgeType": "new",
+        "badgeValue": "New",
+        "productDescription": "A must-have in every wardrobe, this item offers both versatility and elegance. Crafted from high-quality materials, it's perfect for day-to-night wear.",
+        "quantity": 7,
+        "highlight": true,
+        "salePrice": null,
+        "sizes": {
+            "US 8": 7,
+            "US 10": 0,
+            "US 12": 0,
+            "US 14": 0
+        },
+        "id": "3510fcee-ceb9-464f-8970-c556f44be5ef",
+        "collections": "Summer Collection"
+    },
+    {
+        "imgSrc": "/_nuxt/src/assets/img/FLADENI-1753.jpg",
+        "name": "Gold Ring",
+        "category": "Jewelry",
+        "price": 120.0,
+        "badgeType": "sale",
+        "badgeValue": "On Sale",
+        "productDescription": "A must-have in every wardrobe, this item offers both versatility and elegance. Crafted from high-quality materials, it's perfect for day-to-night wear.",
+        "quantity": 12,
+        "highlight": true,
+        "salePrice": 92.65,
+        "sizes": {
+            "US 8": 12,
+            "US 10": 0,
+            "US 12": 0,
+            "US 14": 0
+        },
+        "id": "eefeef5a-335d-4c67-8f96-15709ab45709",
+        "collections": "Exclusive Collection"
+    },
+    {
+        "imgSrc": "/_nuxt/src/assets/img/FLADENI-1537.jpg",
+        "name": "Ruby Pendant",
+        "category": "Jewelry",
+        "price": 250.0,
+        "badgeType": "new",
+        "badgeValue": "New",
+        "productDescription": "A timeless classic, this product is made from premium materials. It's perfect for adding a touch of sophistication to any outfit.",
+        "quantity": 6,
+        "highlight": true,
+        "salePrice": null,
+        "sizes": {
+            "US 8": 5,
+            "US 10": 1,
+            "US 12": 0,
+            "US 14": 0
+        },
+        "id": "9966b793-cf6b-4a08-9e51-7a11358be996",
+        "collections": "Winter Collection"
+    },
+    {
+        "imgSrc": "/_nuxt/src/assets/img/FLADENI-1628.jpg",
+        "name": "Sapphire Bracelet",
+        "category": "Jewelry",
+        "price": 300.0,
+        "badgeType": "out",
+        "badgeValue": "Sold Out",
+        "productDescription": "A must-have in every wardrobe, this item offers both versatility and elegance. Crafted from high-quality materials, it's perfect for day-to-night wear.",
+        "quantity": 0,
+        "highlight": false,
+        "salePrice": null,
+        "sizes": {
+            "US 8": 0,
+            "US 10": 0,
+            "US 12": 0,
+            "US 14": 0
+        },
+        "id": "cd88505f-19a1-457a-b612-3c1dd25af19c",
+        "collections": "Fall Collection"
+    },
+    {
+        "imgSrc": "/_nuxt/src/assets/img/FLADENI-1680.jpg",
+        "name": "Emerald Earrings",
+        "category": "Jewelry",
+        "price": 175.0,
+        "badgeType": "new",
+        "badgeValue": "New",
+        "productDescription": "This product is designed with the latest trends in mind, offering both style and comfort. Ideal for any occasion, it combines functionality with fashion.",
+        "quantity": 8,
+        "highlight": false,
+        "salePrice": null,
+        "sizes": {
+            "US 8": 7,
+            "US 10": 1,
+            "US 12": 0,
+            "US 14": 0
+        },
+        "id": "bf82b5da-7d1a-4a29-8952-ebc7621a7cec",
+        "collections": "Exclusive Collection"
+    },
+    {
+        "imgSrc": "/_nuxt/src/assets/img/FLADENI-1704.jpg",
+        "name": "Platinum Wedding Band",
+        "category": "Jewelry",
+        "price": 500.0,
+        "badgeType": "sale",
+        "badgeValue": "On Sale",
+        "productDescription": "A timeless classic, this product is made from premium materials. It's perfect for adding a touch of sophistication to any outfit.",
+        "quantity": 3,
+        "highlight": false,
+        "salePrice": 257.47,
+        "sizes": {
+            "US 8": 2,
+            "US 10": 1,
+            "US 12": 0,
+            "US 14": 0
+        },
+        "id": "8cdb97b0-7c32-4df0-9413-097df054468b",
+        "collections": "Fall Collection"
+    },
+    {
+        "imgSrc": "/_nuxt/src/assets/img/FLADENI-1786.jpg",
+        "name": "Topaz Ring",
+        "category": "Jewelry",
+        "price": 130.0,
+        "badgeType": "new",
+        "badgeValue": "New",
+        "productDescription": "This product is designed with the latest trends in mind, offering both style and comfort. Ideal for any occasion, it combines functionality with fashion.",
+        "quantity": 10,
+        "highlight": false,
+        "salePrice": null,
+        "sizes": {
+            "US 8": 4,
+            "US 10": 0,
+            "US 12": 2,
+            "US 14": 4
+        },
+        "id": "65833ad1-fc3a-408a-ab76-707393203b3c",
+        "collections": "Summer Collection"
+    }
+]

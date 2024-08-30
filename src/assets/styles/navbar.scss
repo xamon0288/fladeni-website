@@ -1,0 +1,386 @@
+.navbar {
+	display: flex;
+	position: relative;
+	justify-content: center;
+	width: 100dvw;
+	transition: all 300ms ease-in-out;
+	margin-bottom: 5rem;
+	z-index: 99999;
+
+	&-container {
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		height: 100%;
+		width: 100%;
+		max-width: 1200px;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&-fixed {
+		display: grid;
+		place-items: center;
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 70px;
+		width: 100dvw;
+		background-color: antiquewhite;
+		transition: all 300ms ease-in-out;
+		z-index: 999999;
+
+		&__container {
+			display: flex;
+			position: relative;
+			width: 100%;
+			max-width: 960px;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		& .navbar-logo {
+			display: none;
+		}
+	}
+
+	&-top {
+		margin-bottom: 3rem;
+	}
+
+	&-bottom {
+		display: flex;
+		position: relative;
+		width: 100%;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&-left {
+		display: flex;
+		align-items: center;
+		gap: 20px;
+	}
+
+	&-middle {
+		display: flex;
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		height: 100%;
+		align-items: center;
+		font-size: var(--fz-h4);
+		letter-spacing: 1.25px;
+		gap: 20px;
+	}
+
+	&-shopping {
+		position: relative;
+		padding-inline: 0.5rem;
+
+		& img {
+			width: 18px;
+		}
+
+		&__count {
+			display: grid;
+			place-items: center;
+			position: absolute;
+			top: -10px;
+			right: -5px;
+			width: 1.125rem;
+			height: 1.125rem;
+			padding: 0.125rem;
+			background-color: var(--bc-highlight);
+			font-size: var(--fz-sm);
+			border-radius: 50%;
+			z-index: 10;
+		}
+	}
+
+	&-dropdown {
+		display: flex;
+	}
+
+	&-hidden {
+		top: -100px;
+	}
+
+	&-item {
+		display: flex;
+		position: relative;
+		align-items: center;
+		transition: all 300ms ease-in-out;
+		cursor: pointer;
+
+		&::after {
+			content: "";
+			position: absolute;
+			bottom: -2px;
+			width: 100%;
+			border-bottom: 2px solid var(--bc-highlight);
+			transform: scaleX(0);
+			transform-origin: 50% 100%;
+			transition: cubic-bezier(0.19, 0.32, 0.72, 0.81) 0.3s;
+		}
+
+		& a {
+			padding-bottom: 5px;
+		}
+
+		&:hover {
+			&.navbar-item::after {
+				transform: scaleX(1);
+			}
+		}
+	}
+}
+
+// MOBILE MENU
+.hamburger {
+	display: flex;
+	position: relative;
+	width: 1.5rem;
+	height: 2.5px;
+	background-color: var(--bc-highlight);
+	transition: transform 300ms ease-in-out;
+	z-index: 99;
+
+	&-container {
+		display: flex;
+		height: 1rem;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+		z-index: 999999;
+	}
+
+	&::before,
+	&::after {
+		content: "";
+		position: absolute;
+		width: 1.5rem;
+		height: 1px;
+		left: 0;
+		background-color: var(--bc-secondary);
+		transition: transform 300ms ease-in-out;
+		z-index: -1;
+	}
+
+	&::before {
+		top: -6px;
+	}
+
+	&::after {
+		top: 6px;
+	}
+
+	&-close {
+		height: 0;
+
+		&::before {
+			transform: rotate(-45deg) translate(-1.5px, 6.8px);
+		}
+
+		&::after {
+			transform: rotate(45deg) translate(-1.5px, -7px);
+		}
+	}
+}
+
+// MOBILE MENU
+.mobile-menu {
+	display: flex;
+	position: fixed;
+	flex-direction: column;
+	align-items: center;
+	top: 0;
+	right: 0;
+	height: 100dvh;
+	width: 25dvw;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	background-color: var(--bc-primary);
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(191, 191, 191, 0.8);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(191, 191, 191, 0.8);
+	box-shadow: 0px 0px 10px 0px rgba(191, 191, 191, 0.8);
+	transform: translateX(100%);
+	transition: all 500ms cubic-bezier(0.19, 0.32, 0.72, 0.81);
+	overflow: hidden;
+	z-index: 999999;
+
+	&__item {
+		display: flex;
+	}
+
+	&-reveal {
+		transform: translateX(0%);
+	}
+
+	&__content {
+		display: flex;
+		width: 100%;
+		padding-inline: 2rem;
+		text-align: center;
+		flex-direction: column;
+		align-items: center;
+		font-size: var(--fz-h3);
+	}
+
+	&__top {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+	}
+
+	&__middle {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		font-family: var(--ff-highlight);
+		overflow-y: auto;
+		gap: 2rem;
+		margin: 3rem 0;
+	}
+
+	&__bottom {
+		width: 100%;
+	}
+
+	&__socials {
+		display: flex;
+		height: 2rem;
+		gap: 1rem;
+	}
+
+	&__social {
+		svg {
+			width: 1rem;
+			&:hover {
+				fill: var(--bc-highlight);
+			}
+		}
+	}
+
+	&__link {
+		text-decoration: none;
+		letter-spacing: 1.5px;
+		transition: all 300ms ease-in-out;
+
+		&::after {
+			display: block;
+			content: "";
+		}
+	}
+}
+
+// UTILITIES
+.background {
+	background: transparent !important;
+}
+
+.rot180 {
+	font-size: clamp(1.25rem, 1.917rem + 0.1736vw, 1.5rem);
+	// transform: rotate(180deg) translateY(-25%);
+	transition: all 300ms ease-in-out;
+}
+
+.selected {
+	color: var(--text-highlight);
+	font-weight: bold;
+}
+
+// MEDIA QUERIES
+@media only screen and (min-width: 1920px) {
+	.navbar {
+		&-container {
+			max-width: 1200px;
+			margin: 0 auto;
+		}
+	}
+}
+
+@media only screen and (min-width: 540px) and (max-width: 912px) {
+	.mobile-menu-content {
+		font-size: 1.125rem;
+	}
+
+	.navbar-left {
+		gap: 5%;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	.navbar {
+		display: none;
+
+		&-fixed {
+			padding-inline: 3rem;
+
+			&__container {
+				justify-content: flex-end;
+			}
+
+			.navbar-left,
+			.navbar-middle {
+				display: none;
+			}
+
+			& .navbar-logo {
+				display: block;
+				position: absolute;
+				left: 50%;
+				transform: translateX(-50%);
+			}
+		}
+	}
+
+	.hamburger {
+		display: flex;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.mobile-menu {
+		width: 100dvw;
+
+		&__content {
+			height: 100%;
+			position: relative;
+		}
+
+		&__middle,
+		&__bottom {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		&__middle {
+			position: absolute;
+			top: 50%;
+			transform: translateY(-100%);
+		}
+
+		&__bottom {
+			position: absolute;
+			bottom: 0;
+		}
+
+		&__social {
+			svg {
+				width: 2rem;
+			}
+		}
+
+		&__content {
+			font-size: var(--fz-h2);
+		}
+	}
+
+	// Utilities
+	.rot180 {
+		font-size: 1.25rem;
+	}
+}
