@@ -122,5 +122,11 @@
         rgb(237, 237, 237) 100%
       );
     }
+
+    &-pagination {
+      gap: 3%;
+      max-width: 100%;
+      padding-inline: 1rem;
+    }
   }
 }

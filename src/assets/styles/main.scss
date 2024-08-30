@@ -487,6 +487,12 @@ button {
     white-space: wrap;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+
+    &-secondary {
+      &__special {
+        padding: 0 0.75rem;
+      }
+    }
   }
 
   // CARDS
