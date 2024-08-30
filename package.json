@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/image": "^1.8.0",
     "@vueuse/core": "^11.0.3",
     "nouislider": "^15.8.1",
     "nuxt": "^3.13.0",

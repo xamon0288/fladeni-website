@@ -180,9 +180,9 @@ const product = ref([]);
 const similar = ref([]);
 const mainImage = ref("");
 const altImages = ref([
-  "/_nuxt/src/assets/img/wool-pants-img-6-600x795.jpg",
-  "/_nuxt/src/assets/img/fuzzy-slipper-img-4-600x795.jpg",
-  "/_nuxt/src/assets/img/Fashzen-img-7-600x795.jpg",
+  import("@/assets/img/wool-pants-img-6-600x795.jpg"),
+  import("@/assets/img/fuzzy-slipper-img-4-600x795.jpg"),
+  import("@/assets/img/Fashzen-img-7-600x795.jpg"),
 ]);
 const zoomImage = ref(null);
 const qty = ref(1);
@@ -191,6 +191,10 @@ const selectedSize = ref(null);
 const selectedQty = ref(1);
 const cart = useLocalStorage("cart", []);
 const loading = ref(true);
+
+Promise.all(altImages.value).then((resolvedImages) => {
+  altImages.value = resolvedImages.map((module) => module.default);
+});
 
 // Fetch items based on category
 const fetchAll = async () => {
@@ -202,6 +206,8 @@ const fetchAll = async () => {
 
     if (foundProduct) {
       product.value = foundProduct;
+
+      // product.value.imgSrc = import(`${product.value.imgSrc}`);
 
       // Set the main img
       mainImage.value = product.value.imgSrc;

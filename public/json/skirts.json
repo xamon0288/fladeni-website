@@ -1,102 +1,102 @@
 [
-	{
-		"imgSrc": "_nuxt/src/assets/img/FLADENI-1704.jpg",
-		"name": "A-line Midi Skirt",
-		"category": "Skirts",
-		"price": 45.0,
-		"badgeType": "new",
-		"badgeValue": "New",
-		"productDescription": "A-line skirt perfect for both casual and formal wear.",
-		"quantity": 14
-	},
-	{
-		"imgSrc": "_nuxt/src/assets/img/FLADENI-1623.jpg",
-		"name": "Pleated Mini Skirt",
-		"category": "Skirts",
-		"price": 35.0,
-		"badgeType": "sale",
-		"badgeValue": "On Sale",
-		"productDescription": "Trendy pleated skirt ideal for a night out.",
-		"quantity": 6
-	},
-	{
-		"imgSrc": "_nuxt/src/assets/img/FLADENI-1556.jpg",
-		"name": "Denim Skirt",
-		"category": "Skirts",
-		"price": 50.0,
-		"badgeType": "out",
-		"badgeValue": "Sold Out",
-		"productDescription": "Casual denim skirt for everyday wear.",
-		"quantity": 0
-	},
-	{
-		"imgSrc": "_nuxt/src/assets/img/FLADENI-1786.jpg",
-		"name": "High-Waisted Skirt",
-		"category": "Skirts",
-		"price": 40.0,
-		"badgeType": "new",
-		"badgeValue": "New",
-		"productDescription": "Chic high-waisted skirt for a modern look.",
-		"quantity": 18
-	},
-	{
-		"imgSrc": "_nuxt/src/assets/img/FLADENI-1753.jpg",
-		"name": "Wrap Skirt",
-		"category": "Skirts",
-		"price": 38.0,
-		"badgeType": "sale",
-		"badgeValue": "On Sale",
-		"productDescription": "Comfortable wrap skirt for casual outings.",
-		"quantity": 7
-	},
-	{
-		"imgSrc": "_nuxt/src/assets/img/FLADENI-1537.jpg",
-		"name": "Leather Pencil Skirt",
-		"category": "Skirts",
-		"price": 85.0,
-		"badgeType": "new",
-		"badgeValue": "New",
-		"productDescription": "Stylish leather skirt for a bold fashion statement.",
-		"quantity": 10
-	},
-	{
-		"imgSrc": "_nuxt/src/assets/img/FLADENI-1623.jpg",
-		"name": "Tulle Skirt",
-		"category": "Skirts",
-		"price": 55.0,
-		"badgeType": "out",
-		"badgeValue": "Sold Out",
-		"productDescription": "Delicate tulle skirt perfect for special occasions.",
-		"quantity": 0
-	},
-	{
-		"imgSrc": "_nuxt/src/assets/img/FLADENI-1665.jpg",
-		"name": "Maxi Skirt",
-		"category": "Skirts",
-		"price": 60.0,
-		"badgeType": "new",
-		"badgeValue": "New",
-		"productDescription": "Flowy maxi skirt for a bohemian vibe.",
-		"quantity": 16
-	},
-	{
-		"imgSrc": "_nuxt/src/assets/img/FLADENI-1707.jpg",
-		"name": "Ruffled Skirt",
-		"category": "Skirts",
-		"price": 42.0,
-		"badgeType": "sale",
-		"badgeValue": "On Sale",
-		"productDescription": "Playful ruffled skirt for a fun, flirty look.",
-		"quantity": 12
-	},
-	{
-		"imgSrc": "_nuxt/src/assets/img/FLADENI-1821.jpg",
-		"name": "Plaid Skirt",
-		"category": "Skirts",
-		"price": 48.0,
-		"badgeType": "new",
-		"badgeValue": "New",
-		"productDescription": "Classic plaid skirt for a timeless look.",
-		"quantity": 11
-	}
+  {
+    "imgSrc": "https://raw.githubusercontent.com/xamon0288/fladeni-website/master/src/assets/img/FLADENI-1704.jpg",
+    "name": "A-line Midi Skirt",
+    "category": "Skirts",
+    "price": 45.0,
+    "badgeType": "new",
+    "badgeValue": "New",
+    "productDescription": "A-line skirt perfect for both casual and formal wear.",
+    "quantity": 14
+  },
+  {
+    "imgSrc": "https://raw.githubusercontent.com/xamon0288/fladeni-website/master/src/assets/img/FLADENI-1623.jpg",
+    "name": "Pleated Mini Skirt",
+    "category": "Skirts",
+    "price": 35.0,
+    "badgeType": "sale",
+    "badgeValue": "On Sale",
+    "productDescription": "Trendy pleated skirt ideal for a night out.",
+    "quantity": 6
+  },
+  {
+    "imgSrc": "https://raw.githubusercontent.com/xamon0288/fladeni-website/master/src/assets/img/FLADENI-1556.jpg",
+    "name": "Denim Skirt",
+    "category": "Skirts",
+    "price": 50.0,
+    "badgeType": "out",
+    "badgeValue": "Sold Out",
+    "productDescription": "Casual denim skirt for everyday wear.",
+    "quantity": 0
+  },
+  {
+    "imgSrc": "https://raw.githubusercontent.com/xamon0288/fladeni-website/master/src/assets/img/FLADENI-1786.jpg",
+    "name": "High-Waisted Skirt",
+    "category": "Skirts",
+    "price": 40.0,
+    "badgeType": "new",
+    "badgeValue": "New",
+    "productDescription": "Chic high-waisted skirt for a modern look.",
+    "quantity": 18
+  },
+  {
+    "imgSrc": "https://raw.githubusercontent.com/xamon0288/fladeni-website/master/src/assets/img/FLADENI-1753.jpg",
+    "name": "Wrap Skirt",
+    "category": "Skirts",
+    "price": 38.0,
+    "badgeType": "sale",
+    "badgeValue": "On Sale",
+    "productDescription": "Comfortable wrap skirt for casual outings.",
+    "quantity": 7
+  },
+  {
+    "imgSrc": "https://raw.githubusercontent.com/xamon0288/fladeni-website/master/src/assets/img/FLADENI-1537.jpg",
+    "name": "Leather Pencil Skirt",
+    "category": "Skirts",
+    "price": 85.0,
+    "badgeType": "new",
+    "badgeValue": "New",
+    "productDescription": "Stylish leather skirt for a bold fashion statement.",
+    "quantity": 10
+  },
+  {
+    "imgSrc": "https://raw.githubusercontent.com/xamon0288/fladeni-website/master/src/assets/img/FLADENI-1623.jpg",
+    "name": "Tulle Skirt",
+    "category": "Skirts",
+    "price": 55.0,
+    "badgeType": "out",
+    "badgeValue": "Sold Out",
+    "productDescription": "Delicate tulle skirt perfect for special occasions.",
+    "quantity": 0
+  },
+  {
+    "imgSrc": "https://raw.githubusercontent.com/xamon0288/fladeni-website/master/src/assets/img/FLADENI-1665.jpg",
+    "name": "Maxi Skirt",
+    "category": "Skirts",
+    "price": 60.0,
+    "badgeType": "new",
+    "badgeValue": "New",
+    "productDescription": "Flowy maxi skirt for a bohemian vibe.",
+    "quantity": 16
+  },
+  {
+    "imgSrc": "https://raw.githubusercontent.com/xamon0288/fladeni-website/master/src/assets/img/FLADENI-1707.jpg",
+    "name": "Ruffled Skirt",
+    "category": "Skirts",
+    "price": 42.0,
+    "badgeType": "sale",
+    "badgeValue": "On Sale",
+    "productDescription": "Playful ruffled skirt for a fun, flirty look.",
+    "quantity": 12
+  },
+  {
+    "imgSrc": "https://raw.githubusercontent.com/xamon0288/fladeni-website/master/src/assets/img/FLADENI-1821.jpg",
+    "name": "Plaid Skirt",
+    "category": "Skirts",
+    "price": 48.0,
+    "badgeType": "new",
+    "badgeValue": "New",
+    "productDescription": "Classic plaid skirt for a timeless look.",
+    "quantity": 11
+  }
 ]

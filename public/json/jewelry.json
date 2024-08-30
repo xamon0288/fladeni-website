@@ -1,102 +1,102 @@
 [
-	{
-		"imgSrc": "_nuxt/src/assets/img/FLADENI-1628.jpg",
-		"name": "Gold Necklace",
-		"category": "Jewelry",
-		"price": 150.0,
-		"badgeType": "new",
-		"badgeValue": "New",
-		"productDescription": "Elegant gold necklace with a minimalist design.",
-		"quantity": 5
-	},
-	{
-		"imgSrc": "_nuxt/src/assets/img/FLADENI-1683.jpg",
-		"name": "Silver Bracelet",
-		"category": "Jewelry",
-		"price": 65.0,
-		"badgeType": "sale",
-		"badgeValue": "On Sale",
-		"productDescription": "Simple yet stylish silver bracelet.",
-		"quantity": 9
-	},
-	{
-		"imgSrc": "_nuxt/src/assets/img/FLADENI-1637.jpg",
-		"name": "Diamond Earrings",
-		"category": "Jewelry",
-		"price": 350.0,
-		"badgeType": "out",
-		"badgeValue": "Sold Out",
-		"productDescription": "Luxurious diamond earrings for special occasions.",
-		"quantity": 0
-	},
-	{
-		"imgSrc": "_nuxt/src/assets/img/FLADENI-1704.jpg",
-		"name": "Pearl Necklace",
-		"category": "Jewelry",
-		"price": 200.0,
-		"badgeType": "new",
-		"badgeValue": "New",
-		"productDescription": "Classic pearl necklace, perfect for any event.",
-		"quantity": 7
-	},
-	{
-		"imgSrc": "_nuxt/src/assets/img/FLADENI-1753.jpg",
-		"name": "Gold Ring",
-		"category": "Jewelry",
-		"price": 120.0,
-		"badgeType": "sale",
-		"badgeValue": "On Sale",
-		"productDescription": "Delicate gold ring with a subtle design.",
-		"quantity": 12
-	},
-	{
-		"imgSrc": "_nuxt/src/assets/img/FLADENI-1537.jpg",
-		"name": "Ruby Pendant",
-		"category": "Jewelry",
-		"price": 250.0,
-		"badgeType": "new",
-		"badgeValue": "New",
-		"productDescription": "Stunning ruby pendant on a silver chain.",
-		"quantity": 6
-	},
-	{
-		"imgSrc": "_nuxt/src/assets/img/FLADENI-1628.jpg",
-		"name": "Sapphire Bracelet",
-		"category": "Jewelry",
-		"price": 300.0,
-		"badgeType": "out",
-		"badgeValue": "Sold Out",
-		"productDescription": "Exquisite sapphire bracelet for special occasions.",
-		"quantity": 0
-	},
-	{
-		"imgSrc": "_nuxt/src/assets/img/FLADENI-1680.jpg",
-		"name": "Emerald Earrings",
-		"category": "Jewelry",
-		"price": 175.0,
-		"badgeType": "new",
-		"badgeValue": "New",
-		"productDescription": "Gorgeous emerald earrings that add a touch of elegance.",
-		"quantity": 8
-	},
-	{
-		"imgSrc": "_nuxt/src/assets/img/FLADENI-1704.jpg",
-		"name": "Platinum Wedding Band",
-		"category": "Jewelry",
-		"price": 500.0,
-		"badgeType": "sale",
-		"badgeValue": "On Sale",
-		"productDescription": "Elegant platinum wedding band.",
-		"quantity": 3
-	},
-	{
-		"imgSrc": "_nuxt/src/assets/img/FLADENI-1786.jpg",
-		"name": "Topaz Ring",
-		"category": "Jewelry",
-		"price": 130.0,
-		"badgeType": "new",
-		"badgeValue": "New",
-		"productDescription": "Beautiful topaz ring with a unique design.",
-		"quantity": 10
-	}
+  {
+    "imgSrc": "https://raw.githubusercontent.com/xamon0288/fladeni-website/master/src/assets/img/FLADENI-1628.jpg",
+    "name": "Gold Necklace",
+    "category": "Jewelry",
+    "price": 150.0,
+    "badgeType": "new",
+    "badgeValue": "New",
+    "productDescription": "Elegant gold necklace with a minimalist design.",
+    "quantity": 5
+  },
+  {
+    "imgSrc": "https://raw.githubusercontent.com/xamon0288/fladeni-website/master/src/assets/img/FLADENI-1683.jpg",
+    "name": "Silver Bracelet",
+    "category": "Jewelry",
+    "price": 65.0,
+    "badgeType": "sale",
+    "badgeValue": "On Sale",
+    "productDescription": "Simple yet stylish silver bracelet.",
+    "quantity": 9
+  },
+  {
+    "imgSrc": "https://raw.githubusercontent.com/xamon0288/fladeni-website/master/src/assets/img/FLADENI-1637.jpg",
+    "name": "Diamond Earrings",
+    "category": "Jewelry",
+    "price": 350.0,
+    "badgeType": "out",
+    "badgeValue": "Sold Out",
+    "productDescription": "Luxurious diamond earrings for special occasions.",
+    "quantity": 0
+  },
+  {
+    "imgSrc": "https://raw.githubusercontent.com/xamon0288/fladeni-website/master/src/assets/img/FLADENI-1704.jpg",
+    "name": "Pearl Necklace",
+    "category": "Jewelry",
+    "price": 200.0,
+    "badgeType": "new",
+    "badgeValue": "New",
+    "productDescription": "Classic pearl necklace, perfect for any event.",
+    "quantity": 7
+  },
+  {
+    "imgSrc": "https://raw.githubusercontent.com/xamon0288/fladeni-website/master/src/assets/img/FLADENI-1753.jpg",
+    "name": "Gold Ring",
+    "category": "Jewelry",
+    "price": 120.0,
+    "badgeType": "sale",
+    "badgeValue": "On Sale",
+    "productDescription": "Delicate gold ring with a subtle design.",
+    "quantity": 12
+  },
+  {
+    "imgSrc": "https://raw.githubusercontent.com/xamon0288/fladeni-website/master/src/assets/img/FLADENI-1537.jpg",
+    "name": "Ruby Pendant",
+    "category": "Jewelry",
+    "price": 250.0,
+    "badgeType": "new",
+    "badgeValue": "New",
+    "productDescription": "Stunning ruby pendant on a silver chain.",
+    "quantity": 6
+  },
+  {
+    "imgSrc": "https://raw.githubusercontent.com/xamon0288/fladeni-website/master/src/assets/img/FLADENI-1628.jpg",
+    "name": "Sapphire Bracelet",
+    "category": "Jewelry",
+    "price": 300.0,
+    "badgeType": "out",
+    "badgeValue": "Sold Out",
+    "productDescription": "Exquisite sapphire bracelet for special occasions.",
+    "quantity": 0
+  },
+  {
+    "imgSrc": "https://raw.githubusercontent.com/xamon0288/fladeni-website/master/src/assets/img/FLADENI-1680.jpg",
+    "name": "Emerald Earrings",
+    "category": "Jewelry",
+    "price": 175.0,
+    "badgeType": "new",
+    "badgeValue": "New",
+    "productDescription": "Gorgeous emerald earrings that add a touch of elegance.",
+    "quantity": 8
+  },
+  {
+    "imgSrc": "https://raw.githubusercontent.com/xamon0288/fladeni-website/master/src/assets/img/FLADENI-1704.jpg",
+    "name": "Platinum Wedding Band",
+    "category": "Jewelry",
+    "price": 500.0,
+    "badgeType": "sale",
+    "badgeValue": "On Sale",
+    "productDescription": "Elegant platinum wedding band.",
+    "quantity": 3
+  },
+  {
+    "imgSrc": "https://raw.githubusercontent.com/xamon0288/fladeni-website/master/src/assets/img/FLADENI-1786.jpg",
+    "name": "Topaz Ring",
+    "category": "Jewelry",
+    "price": 130.0,
+    "badgeType": "new",
+    "badgeValue": "New",
+    "productDescription": "Beautiful topaz ring with a unique design.",
+    "quantity": 10
+  }
 ]

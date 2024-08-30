@@ -1,102 +1,102 @@
 [
-	{
-		"imgSrc": "_nuxt/src/assets/img/FLADENI-1537.jpg",
-		"name": "Elegant Evening Dress",
-		"category": "Dresses",
-		"price": 120.0,
-		"badgeType": "new",
-		"badgeValue": "New",
-		"productDescription": "A stunning evening dress perfect for special occasions.",
-		"quantity": 15
-	},
-	{
-		"imgSrc": "_nuxt/src/assets/img/FLADENI-1623.jpg",
-		"name": "Summer Maxi Dress",
-		"category": "Dresses",
-		"price": 75.0,
-		"badgeType": "sale",
-		"badgeValue": "On Sale",
-		"productDescription": "Lightweight and comfortable maxi dress for summer days.",
-		"quantity": 8
-	},
-	{
-		"imgSrc": "_nuxt/src/assets/img/FLADENI-1665.jpg",
-		"name": "Casual Midi Dress",
-		"category": "Dresses",
-		"price": 50.0,
-		"badgeType": "out",
-		"badgeValue": "Sold Out",
-		"productDescription": "A versatile midi dress suitable for any casual outing.",
-		"quantity": 0
-	},
-	{
-		"imgSrc": "_nuxt/src/assets/img/FLADENI-1680.jpg",
-		"name": "Formal Office Dress",
-		"category": "Dresses",
-		"price": 95.0,
-		"badgeType": "new",
-		"badgeValue": "New",
-		"productDescription": "A perfect formal dress for office wear.",
-		"quantity": 20
-	},
-	{
-		"imgSrc": "_nuxt/src/assets/img/FLADENI-1753.jpg",
-		"name": "Cocktail Party Dress",
-		"category": "Dresses",
-		"price": 110.0,
-		"badgeType": "sale",
-		"badgeValue": "On Sale",
-		"productDescription": "Stylish cocktail dress for evening parties.",
-		"quantity": 5
-	},
-	{
-		"imgSrc": "_nuxt/src/assets/img/FLADENI-1821.jpg",
-		"name": "Bohemian Maxi Dress",
-		"category": "Dresses",
-		"price": 80.0,
-		"badgeType": "new",
-		"badgeValue": "New",
-		"productDescription": "Flowy bohemian dress ideal for summer festivals.",
-		"quantity": 12
-	},
-	{
-		"imgSrc": "_nuxt/src/assets/img/FLADENI-1704.jpg",
-		"name": "Little Black Dress",
-		"category": "Dresses",
-		"price": 65.0,
-		"badgeType": "out",
-		"badgeValue": "Sold Out",
-		"productDescription": "A classic little black dress for any occasion.",
-		"quantity": 0
-	},
-	{
-		"imgSrc": "_nuxt/src/assets/img/FLADENI-1693.jpg",
-		"name": "Beach Sundress",
-		"category": "Dresses",
-		"price": 45.0,
-		"badgeType": "new",
-		"badgeValue": "New",
-		"productDescription": "Perfect sundress for a day at the beach.",
-		"quantity": 18
-	},
-	{
-		"imgSrc": "_nuxt/src/assets/img/FLADENI-1572.jpg",
-		"name": "Floral Print Dress",
-		"category": "Dresses",
-		"price": 55.0,
-		"badgeType": "sale",
-		"badgeValue": "On Sale",
-		"productDescription": "Vibrant floral print dress for spring and summer.",
-		"quantity": 9
-	},
-	{
-		"imgSrc": "_nuxt/src/assets/img/FLADENI-1683.jpg",
-		"name": "Winter Sweater Dress",
-		"category": "Dresses",
-		"price": 85.0,
-		"badgeType": "new",
-		"badgeValue": "New",
-		"productDescription": "Cozy sweater dress for chilly winter days.",
-		"quantity": 10
-	}
+  {
+    "imgSrc": "https://raw.githubusercontent.com/xamon0288/fladeni-website/master/src/assets/img/FLADENI-1537.jpg",
+    "name": "Elegant Evening Dress",
+    "category": "Dresses",
+    "price": 120.0,
+    "badgeType": "new",
+    "badgeValue": "New",
+    "productDescription": "A stunning evening dress perfect for special occasions.",
+    "quantity": 15
+  },
+  {
+    "imgSrc": "https://raw.githubusercontent.com/xamon0288/fladeni-website/master/src/assets/img/FLADENI-1623.jpg",
+    "name": "Summer Maxi Dress",
+    "category": "Dresses",
+    "price": 75.0,
+    "badgeType": "sale",
+    "badgeValue": "On Sale",
+    "productDescription": "Lightweight and comfortable maxi dress for summer days.",
+    "quantity": 8
+  },
+  {
+    "imgSrc": "https://raw.githubusercontent.com/xamon0288/fladeni-website/master/src/assets/img/FLADENI-1665.jpg",
+    "name": "Casual Midi Dress",
+    "category": "Dresses",
+    "price": 50.0,
+    "badgeType": "out",
+    "badgeValue": "Sold Out",
+    "productDescription": "A versatile midi dress suitable for any casual outing.",
+    "quantity": 0
+  },
+  {
+    "imgSrc": "https://raw.githubusercontent.com/xamon0288/fladeni-website/master/src/assets/img/FLADENI-1680.jpg",
+    "name": "Formal Office Dress",
+    "category": "Dresses",
+    "price": 95.0,
+    "badgeType": "new",
+    "badgeValue": "New",
+    "productDescription": "A perfect formal dress for office wear.",
+    "quantity": 20
+  },
+  {
+    "imgSrc": "https://raw.githubusercontent.com/xamon0288/fladeni-website/master/src/assets/img/FLADENI-1753.jpg",
+    "name": "Cocktail Party Dress",
+    "category": "Dresses",
+    "price": 110.0,
+    "badgeType": "sale",
+    "badgeValue": "On Sale",
+    "productDescription": "Stylish cocktail dress for evening parties.",
+    "quantity": 5
+  },
+  {
+    "imgSrc": "https://raw.githubusercontent.com/xamon0288/fladeni-website/master/src/assets/img/FLADENI-1821.jpg",
+    "name": "Bohemian Maxi Dress",
+    "category": "Dresses",
+    "price": 80.0,
+    "badgeType": "new",
+    "badgeValue": "New",
+    "productDescription": "Flowy bohemian dress ideal for summer festivals.",
+    "quantity": 12
+  },
+  {
+    "imgSrc": "https://raw.githubusercontent.com/xamon0288/fladeni-website/master/src/assets/img/FLADENI-1704.jpg",
+    "name": "Little Black Dress",
+    "category": "Dresses",
+    "price": 65.0,
+    "badgeType": "out",
+    "badgeValue": "Sold Out",
+    "productDescription": "A classic little black dress for any occasion.",
+    "quantity": 0
+  },
+  {
+    "imgSrc": "https://raw.githubusercontent.com/xamon0288/fladeni-website/master/src/assets/img/FLADENI-1693.jpg",
+    "name": "Beach Sundress",
+    "category": "Dresses",
+    "price": 45.0,
+    "badgeType": "new",
+    "badgeValue": "New",
+    "productDescription": "Perfect sundress for a day at the beach.",
+    "quantity": 18
+  },
+  {
+    "imgSrc": "https://raw.githubusercontent.com/xamon0288/fladeni-website/master/src/assets/img/FLADENI-1572.jpg",
+    "name": "Floral Print Dress",
+    "category": "Dresses",
+    "price": 55.0,
+    "badgeType": "sale",
+    "badgeValue": "On Sale",
+    "productDescription": "Vibrant floral print dress for spring and summer.",
+    "quantity": 9
+  },
+  {
+    "imgSrc": "https://raw.githubusercontent.com/xamon0288/fladeni-website/master/src/assets/img/FLADENI-1683.jpg",
+    "name": "Winter Sweater Dress",
+    "category": "Dresses",
+    "price": 85.0,
+    "badgeType": "new",
+    "badgeValue": "New",
+    "productDescription": "Cozy sweater dress for chilly winter days.",
+    "quantity": 10
+  }
 ]
