@@ -20,17 +20,7 @@
                   delay: 3500,
                   disableOnInteraction: true,
                 }"
-                @slideChange="updateImageUrl($event.realIndex)"
-                :breakpoints="{
-                  768: {
-                    slidesPerView: 1,
-                    spaceBetween: 20,
-                  },
-                  0: {
-                    slidesPerView: 1,
-                    spaceBetween: 10,
-                  },
-                }">
+                @slideChange="updateImageUrl($event.realIndex)">
                 <swiper-slide
                   v-for="(item, index) in availableCollections"
                   :key="index">

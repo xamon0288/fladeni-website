@@ -92,11 +92,35 @@
 @media only screen and (max-width: 768px) {
   .collections {
     &-container {
+      width: 100%;
+
       & .products-showcase__content {
         flex-wrap: wrap;
         row-gap: 1rem;
         overflow-x: hidden;
       }
+
+      & .product-item {
+        width: 100%;
+      }
+    }
+
+    & .hero-container {
+      display: flex;
+
+      & .page-title {
+        font-size: var(--fz-h2);
+        font-weight: 400;
+      }
+    }
+
+    & .hero-cta {
+      background: linear-gradient(
+        45deg,
+        rgba(255, 255, 255, 0.4) 80%,
+        rgba(246, 246, 246, 0.3) 95%,
+        rgb(237, 237, 237) 100%
+      );
     }
   }
 }
